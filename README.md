@@ -2,7 +2,7 @@
 
 ## Description
 
-this project is submitted for position Software Engineer (Web Developer) - BBC/TP/623869/52151 @BBC
+This project is submitted for position Software Engineer (Web Developer) - BBC/TP/623869/52151 @BBC
 
 ## Directory Structure
 
@@ -10,11 +10,11 @@ json file can be found in `public/data/english.json`
 
 cigarette picture can be found in `public/img/icon/cigar.png`
 
-production files can be found in `./dist`
+production ready files can be found in `./dist`
 
 ## Prerequisites
 
-- Node.js
+Node.js - v12.22.1
 
 ## Installation & Run
 
