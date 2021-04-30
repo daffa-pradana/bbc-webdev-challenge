@@ -1,8 +1,11 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import { processData } from "./helper"
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
+// test process data
+test("processData", () => {
+    expect(processData(1)).toEqual({
+        city: "compare-tabs_1_city_1_name",
+        aqi: "compare-tabs_1_city_1_aqi",
+        cigg: "compare-tabs_1_city_1_cigg",
+        info: "compare-tabs_1_method"
+    })
+})
